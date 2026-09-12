@@ -25,6 +25,7 @@ module LSP
       "textDocument/didClose":           DidCloseNotification,
       "textDocument/willSave":           WillSaveNotification,
       "textDocument/publishDiagnostics": PublishDiagnosticsNotification,
+      "workspace/didChangeConfiguration": DidChangeConfigurationNotification,
     }, default: UnknownNotification
   end
 
