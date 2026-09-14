@@ -40,6 +40,7 @@ module LSP
       "textDocument/definition":        DefinitionRequest,
       "textDocument/signatureHelp":     SignatureHelpRequest,
       "textDocument/documentSymbol":    DocumentSymbolsRequest,
+      "workspace/symbol":              WorkspaceSymbolRequest,
       "$/reckless/status":              RecklessStatusRequest,
     }, default: UnknownRequest
   end
