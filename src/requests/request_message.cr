@@ -41,6 +41,8 @@ module LSP
       "textDocument/signatureHelp":     SignatureHelpRequest,
       "textDocument/documentSymbol":    DocumentSymbolsRequest,
       "workspace/symbol":              WorkspaceSymbolRequest,
+      "textDocument/rename":            RenameRequest,
+      "textDocument/references":        ReferencesRequest,
       "$/reckless/status":              RecklessStatusRequest,
     }, default: UnknownRequest
   end
