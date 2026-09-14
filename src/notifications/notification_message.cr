@@ -26,6 +26,7 @@ module LSP
       "textDocument/willSave":           WillSaveNotification,
       "textDocument/publishDiagnostics": PublishDiagnosticsNotification,
       "workspace/didChangeConfiguration": DidChangeConfigurationNotification,
+      "workspace/didChangeWatchedFiles": DidChangeWatchedFilesNotification,
     }, default: UnknownNotification
   end
 
