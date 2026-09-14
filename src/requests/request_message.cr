@@ -44,6 +44,7 @@ module LSP
       "textDocument/rename":            RenameRequest,
       "textDocument/references":        ReferencesRequest,
       "textDocument/semanticTokens/full": SemanticTokensFullRequest,
+      "textDocument/semanticTokens/range": SemanticTokensRangeRequest,
       "textDocument/foldingRange":      FoldingRangeRequest,
       "textDocument/documentLink":      DocumentLinkRequest,
       "textDocument/codeAction":        CodeActionRequest,
