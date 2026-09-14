@@ -106,6 +106,10 @@ module LSP
     @[JSON::Field(key: "workspaceSymbolProvider")]
     property workspace_symbol_provider : Bool?
 
+    # The server provides semantic tokens support.
+    @[JSON::Field(key: "semanticTokensProvider")]
+    property semantic_tokens_provider : SemanticTokensOptions?
+
     # Workspace specific server capabilities
     @[JSON::Field(key: "workspace")]
     property workspace : WorkspaceValue?

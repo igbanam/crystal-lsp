@@ -43,6 +43,7 @@ module LSP
       "workspace/symbol":              WorkspaceSymbolRequest,
       "textDocument/rename":            RenameRequest,
       "textDocument/references":        ReferencesRequest,
+      "textDocument/semanticTokens/full": SemanticTokensFullRequest,
       "$/reckless/status":              RecklessStatusRequest,
     }, default: UnknownRequest
   end
