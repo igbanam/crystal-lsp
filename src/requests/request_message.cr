@@ -44,6 +44,7 @@ module LSP
       "textDocument/rename":            RenameRequest,
       "textDocument/references":        ReferencesRequest,
       "textDocument/semanticTokens/full": SemanticTokensFullRequest,
+      "textDocument/foldingRange":      FoldingRangeRequest,
       "$/reckless/status":              RecklessStatusRequest,
     }, default: UnknownRequest
   end
