@@ -46,6 +46,7 @@ module LSP
       "textDocument/semanticTokens/full": SemanticTokensFullRequest,
       "textDocument/foldingRange":      FoldingRangeRequest,
       "textDocument/documentLink":      DocumentLinkRequest,
+      "textDocument/codeAction":        CodeActionRequest,
       "$/reckless/status":              RecklessStatusRequest,
     }, default: UnknownRequest
   end
