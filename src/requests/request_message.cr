@@ -48,6 +48,7 @@ module LSP
       "textDocument/foldingRange":      FoldingRangeRequest,
       "textDocument/documentLink":      DocumentLinkRequest,
       "textDocument/codeAction":        CodeActionRequest,
+      "textDocument/inlayHint":         InlayHintRequest,
       "$/reckless/status":              RecklessStatusRequest,
     }, default: UnknownRequest
   end
